@@ -1,0 +1,83 @@
+html{
+    height: 100%;
+}
+body{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width:100%
+    
+}
+.contenu{
+    display: flex;
+    flex-direction : column;
+    align-items: center; 
+    margin-top: 20px; 
+}
+#barreDeRecherche{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+}
+.haut{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;   
+    align-items:center;
+}
+.bouton1{
+    margin-top : 20px;
+    height : 35px;
+    background-color: 	#EEEAEA;
+    border-radius: 5px;
+}
+.bouton2{
+    height : 35px;
+    background-color: 	#EEEAEA;
+    border-radius: 5px;
+
+}
+.coronavirus{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top : 30px;
+    
+}
+.apps{
+    height: 30px;   
+}
+.bouton0{
+    background-color:#318CE7;
+    color: white;
+}
+span{
+    color: blue;
+}
+.langues{
+    width: 200px;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #EEEAEA;
+    height:100%;
+    width: 100%;
+    margin-top: 5px;
+}
+.footerup{
+    border-bottom: solid;
+    border-color: gray;
+    
+}
+.footerbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top : 10px;
+}
+
